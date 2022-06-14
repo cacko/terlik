@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "terlik"
+version = "0.1.0"
+description = ""
+authors = ["cacko <alex@cacko.net>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dataclasses-json = "^0.5.7"
+PyGObject = "^3.42.1"
+darkdetect = "^0.6.0"
+rich = "^12.4.4"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+autopep8 = "^1.6.0"
+mypy = "^0.961"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
